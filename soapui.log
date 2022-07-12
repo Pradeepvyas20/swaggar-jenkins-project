@@ -1,0 +1,107 @@
+2022-07-12 13:28:33,723 WARN  [SoapUI] Missing folder [D:\MoolyaEd Training\New folder\my-app\ext] for external libraries
+2022-07-12 13:28:34,448 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Pradeep\soapui-settings.xml]
+2022-07-12 13:28:37,644 INFO  [PluginManager] Adding plugin from [C:\Users\Pradeep\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2022-07-12 13:28:37,644 INFO  [PluginManager] Adding plugin from [C:\Users\Pradeep\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2022-07-12 13:28:40,475 WARN  [PluginManager] Could not load plugin from file [C:\Users\Pradeep\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.postman.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:135)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:42)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:414)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:371)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:359)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 12 more
+2022-07-12 13:28:40,495 WARN  [PluginManager] Could not load plugin from file [C:\Users\Pradeep\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.mqttsupport.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:135)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:42)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:414)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:371)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:376)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:359)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 13 more
+2022-07-12 13:28:40,504 INFO  [PluginManager] Adding plugin from [C:\Users\Pradeep\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar]
+2022-07-12 13:28:41,214 WARN  [PluginManager] Could not load plugin from file [C:\Users\Pradeep\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.ready.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:135)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:42)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:414)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:371)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:376)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:359)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 13 more
+2022-07-12 13:28:41,238 INFO  [PluginManager] 3 plugins loaded in 3582 ms
+2022-07-12 13:28:41,239 INFO  [DefaultSoapUICore] All plugins loaded
+2022-07-12 13:28:44,729 INFO  [WsdlProject] Loaded project from [file:/D:/MoolyaEd%20Training/New%20folder/my-app/Swagger-Prj-soapui-project.xml]
+2022-07-12 13:28:44,760 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Swagger Prj]
+2022-07-12 13:28:44,792 INFO  [SoapUITestCaseRunner] Running Project [Swagger Prj], runType = SEQUENTIAL
+2022-07-12 13:28:44,851 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2022-07-12 13:28:44,898 INFO  [SoapUITestCaseRunner] running step [Registerproperty]
+2022-07-12 13:28:44,994 INFO  [SoapUITestCaseRunner] running step [Register]
+2022-07-12 13:28:46,972 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status UNKNOWN
+2022-07-12 13:28:46,972 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status UNKNOWN
+2022-07-12 13:28:46,973 INFO  [SoapUITestCaseRunner] running step [logout 1]
+2022-07-12 13:28:47,363 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status UNKNOWN
+2022-07-12 13:28:47,365 INFO  [SoapUITestCaseRunner] running step [forgotten password]
+2022-07-12 13:28:48,119 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status UNKNOWN
+2022-07-12 13:28:48,120 INFO  [SoapUITestCaseRunner] running step [PT for login]
+2022-07-12 13:28:48,291 INFO  [SoapUITestCaseRunner] running step [Login]
+2022-07-12 13:28:48,648 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status UNKNOWN
+2022-07-12 13:28:48,649 INFO  [SoapUITestCaseRunner] running step [Get account details]
+2022-07-12 13:28:49,037 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status UNKNOWN
+2022-07-12 13:28:49,038 INFO  [SoapUITestCaseRunner] running step [Update account data]
+2022-07-12 13:28:49,376 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status UNKNOWN
+2022-07-12 13:28:49,376 INFO  [SoapUITestCaseRunner] running step [Change customer password]
+2022-07-12 13:28:49,760 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status UNKNOWN
+2022-07-12 13:28:49,761 INFO  [SoapUITestCaseRunner] running step [logout]
+2022-07-12 13:28:50,083 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status UNKNOWN
+2022-07-12 13:28:50,100 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 4582ms, status: FINISHED
+2022-07-12 13:28:50,117 INFO  [SoapUITestCaseRunner] Project [Swagger Prj] finished with status [FINISHED] in 5301ms
+2022-07-12 13:28:50,168 WARN  [Tools] Could not delete temporary directory C:\Users\Pradeep\AppData\Local\Temp\8bb9fa39-5738-40c0-81b8-4b0f2e8938ee
